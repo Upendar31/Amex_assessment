@@ -1,0 +1,17 @@
+{
+  "name": "challenge-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test services/index.test.js",
+    "start": "node --env-file=.env services/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "msw": "^2.7.3"
+  }
+}
